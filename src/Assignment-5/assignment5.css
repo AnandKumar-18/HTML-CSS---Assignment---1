@@ -5,3 +5,65 @@
 width: 100%;
 height: 100%;
 }
+
+.father {
+    background:#f2f2f2;
+
+}
+.first-page {
+    background: white;
+    display: flex;
+    border: 1px solid black;
+    margin: 50px;
+}
+.card {
+    border: 1px solid black;
+    width: 30%;
+    background-color: rgb(97, 238, 97);
+    display: flex;
+}
+.mg {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+ 
+}
+.second-page {
+    border: 1px solid black;
+    display: flex;
+    background:white;
+    margin: 50px;
+}
+a {
+    border-radius: 30px;
+    width: 120px;
+    margin: 30px;
+    padding: 25px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color:rgb(97, 238, 97);
+}
+a:hover {
+    color :white;
+    background-color: green
+}
+
+p{
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+#one img {
+    width: 500px;
+    margin:-30px;
+    margin-bottom: 20px;
+}
+.card img {
+    margin: 10px -30px;
+}
